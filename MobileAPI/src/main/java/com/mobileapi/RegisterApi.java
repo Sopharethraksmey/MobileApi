@@ -23,9 +23,11 @@ public class RegisterApi {
 	
 	Date d = new Date();
 	
-	@RequestMapping(value="/Hello", method = RequestMethod.POST)
+	@RequestMapping(value="/Hello", method = RequestMethod.GET)
 	@ResponseBody
 	public String TestApi(){
+		
+		///test new branch
 		
 		return "HelloWorld";
 	}
@@ -123,7 +125,7 @@ public class RegisterApi {
 			info.testOracleConnection();
 			System.out.println("--------------------------------- Connection Oracle open --------------------------------------------------");
 		}catch(Exception e) {
-			e.printStackTrace();
+			e.printStackTrace();			
 		}
 		
 		return "Connection oracle open";
@@ -140,6 +142,7 @@ public class RegisterApi {
 			System.out.println("--------------------------------- Connection Sql open --------------------------------------------------");
 		}catch(Exception e) {
 			e.printStackTrace();
+			System.out.println("--------------------------------- Connection Error --------------------------------------------------");
 		}
 		
 		return "Connection sql open";
