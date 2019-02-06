@@ -7,7 +7,8 @@ public class ClsConnDB {
 	
 	public static final Connection OpenConnectionToDatabaseSQLServer(){
 
-		String  conStr = "jdbc:sqlserver://192.168.0.156:1433;databaseName=CABIB";
+		//String  conStr = "jdbc:sqlserver://192.168.0.156:1433;databaseName=CABIB";
+		String  conStr = "jdbc:sqlserver://192.168.11.101:1433;databaseName=webapi";
 		Connection con=null;
 			String user="sa";
 			String password="123456";
