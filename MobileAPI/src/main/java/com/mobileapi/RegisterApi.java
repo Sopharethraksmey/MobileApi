@@ -25,10 +25,8 @@ public class RegisterApi {
 	
 	@RequestMapping(value="/Hello", method = RequestMethod.GET)
 	@ResponseBody
-	public String TestApi(){
-		
-		///test new branch
-		
+	public String TestApi(){		
+		///test new branch	and new office 
 		return "HelloWorld";
 	}
 	
@@ -105,10 +103,6 @@ public class RegisterApi {
 			System.out.println(d.toString()+ ": ------------------------>Request Account existing :" + " " + acc.toString());
 		}
 		
-			
-		
-		
-		
 		return responsemodel;
 		
 	}
@@ -163,9 +157,6 @@ public class RegisterApi {
 			
 		return "Connection I-banking open";
 	}
-	
-	
-	
 	
 }
 
