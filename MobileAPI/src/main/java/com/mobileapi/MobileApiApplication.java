@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 public class MobileApiApplication extends SpringBootServletInitializer{
 
 	
-
+	/// hello from prince
 	
 	@Override
     protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
